@@ -1,0 +1,22 @@
+{
+    "deploy": [
+        "../deploy.md"
+    ],
+    "docs": "",
+    "features": [
+        "Dual-core",
+        "External Flash",
+        "USB"
+    ],
+    "images": [
+        "rp2-pico2.jpg"
+    ],
+    "mcu": "rp2350",
+    "product": "RP2350 TOUCH LCD 2",
+    "thumbnail": "",
+    "url": "https://www.waveshare.com/rp2350-touch-lcd-2.htm",
+    "variants": {
+        "RISCV": "RISC-V CPU mode"
+    },
+    "vendor": "Raspberry Pi"
+}

@@ -41,7 +41,8 @@
 	url = https://github.com/jedisct1/libhydrogen.git
 [submodule "lib/pico-sdk"]
 	path = lib/pico-sdk
-	url = https://github.com/raspberrypi/pico-sdk.git
+	url = https://github.com/boognevatz/pico-sdk.git
+	branch = rp2350_touch_boot_failure
 [submodule "lib/fsp"]
 	path = lib/fsp
 	url = https://github.com/renesas/fsp.git

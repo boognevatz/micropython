@@ -5,6 +5,8 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE MinSizeRel)
 endif()
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Set main target and component locations
 set(MICROPY_TARGET firmware)
 get_filename_component(MICROPY_DIR "../.." ABSOLUTE)

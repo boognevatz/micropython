@@ -5,7 +5,10 @@ set(MICROPY_FROZEN_MANIFEST ${MICROPY_BOARD_DIR}/manifest.py)
 
 set(MICROPY_PY_NETWORK_WIZNET5K W5500)
 set(MICROPY_PY_LWIP 1) # DHCP server(?)
+# project root, ie. parent dir of micropython
+set(PICOTOOL_FETCH_FROM_GIT_PATH ${CMAKE_SOURCE_DIR}/../../..)
 
+message("PICOTOOL_FETCH_FROM_GIT_PATH: ${PICOTOOL_FETCH_FROM_GIT_PATH}")
 # To change the gpio count for QFN-80
 # set(PICO_NUM_GPIOS 48)
 
